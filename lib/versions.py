@@ -1,8 +1,7 @@
-import sys
-import requests
-import pytest
+from versions import python_version, requests_version, pytest_version
 
 def python_version():
+ 
     return sys.version_info
 
 def requests_version():
